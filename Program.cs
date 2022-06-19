@@ -33,9 +33,9 @@ do
         }
         Console.WriteLine("Number is to low. Guess again");
     }
-    else hunter = Convert.ToInt32(user2);
+        hunter = Convert.ToInt32(user2);
 }
-while (hunter == pilot);
+while (hunter != pilot);
 
- Console.WriteLine($"{hunter} was the correct guess!");
+Console.WriteLine($"{hunter} was the correct guess!");
 
